@@ -1,0 +1,8 @@
+/* styles.css */
+/* Style your timers and buttons here */
+.timer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/* Add more styles as needed */

@@ -1,0 +1,67 @@
+/* Bố cục */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .clock {
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  /* Typography */
+  .time {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start, .stop {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .start:hover, .stop:hover {
+    background-color: #2980b9;
+  }
+  
+  .pause {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
+  .pause:hover {
+    background-color: #e67e22;
+  }
+  
+  .stop-all {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px 30px;
+  }
+  
+  .stop-all:hover {
+    background-color: #c0392b;
+  }
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Booking Login</title>
+  <link rel="stylesheet" href="logIN.css">
+</head>
+<body>
+  <header>
+    <img src="banner.jpg" alt="Travel banner image">
+    <h1> Vietnam Travel</h1>
+    <button type="button">Login</button>
+  </header>
+
+  <main>
+    <form action="/login" method="post">
+      <div class="form-group">
+        <label for="username">Email or Username</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="checkbox" id="remember_me" name="remember_me">
+        <label for="remember_me">Remember Me</label>
+        <a href="#">Forgot Password?</a>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p>Don't have an account? <a href="#">Sign Up Here</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Travel Booking Company</p>
+  </footer>
+</body>
+</html>
